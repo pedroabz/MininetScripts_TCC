@@ -5,7 +5,7 @@ from mininet.net import Mininet
 from mininet.node import CPULimitedHost,OVSSwitch, Controller, RemoteController
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
-#from TCCSDNTopologias import ringTopology
+from TCCSDNTopologias import ringTopology
 from time import sleep
 from random import choice 
 
